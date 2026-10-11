@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('../pictures/one-piece-bg.jpg') no-repeat center center/cover fixed;
+  color: #ffffff;
+}
+
+.brand-logo {
+  height: 70px;
+  width: auto;
+}
+
+.brand-text .english-title {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #ffd94a;
+}
+
+.navbar-nav .nav-link {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.85rem;
+  color: #fcfcfc;
+  font-weight: 500;
+  margin: 0 12px;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #ffd94a;
+  font-weight: 600;
+}
+
+.btn-Logout {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.85rem;
+  background-color: #d62828;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-trailer:hover {
+  background-color: #a81f1f;
+  color: #ffffff;
+}
+
+.luffy-section {
+  min-height: calc(100vh - 90px);
+  padding: 40px 0;
+}
+
+.main-heading {
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  font-weight: 700;
+  color: #ffd94a;
+  margin-bottom: 5px;
+}
+
+.hero-description {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.4px);
+  -webkit-backdrop-filter: blur(2.4px);
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: #f1f1f1;
+  max-width: 520px;
+}
+
+.hero-illustration {
+  max-width: 85%;
+  height: auto;
+  filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.35));
+}
+
+.feature-section {
+  padding: 70px 0;
+}
+
+.feature-heading {
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #002902;
+}
+
+.feature-heading2 {
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #e45807;
+}
+
+.feature-description {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.4px);
+  -webkit-backdrop-filter: blur(2.4px);
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: #004712;
+  max-width: 520px;
+  margin-bottom: 24px;
+}
+
+.feature-description2 {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.4px);
+  -webkit-backdrop-filter: blur(2.4px);
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: #000000;
+  max-width: 520px;
+  margin-bottom: 24px;
+}
+
+.feature-illustration {
+  max-width: 80%;
+  height: auto;
+  filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.35));
+}
+
+.btn-read-more {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.85rem;
+  background-color: #ffffff;
+  color: #0b3d66;
+  border-radius: 6px;
+  padding: 8px 22px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-read-more:hover {
+  background-color: #ffd94a;
+  color: #0b3d66;
+}
+
+.zoro-section {
+  background: url('../pictures/zoro-bg.jpg') no-repeat center center/cover fixed;
+}
+
+.nami-section {
+  background: url('../pictures/nami-bg.jpg') no-repeat center center/cover fixed;
+}
+
+.site-footer {
+  background: rgba(0, 0, 0, 0.75);
+  color: #ffd94a;
+  font-family: "Aladin", system-ui;
+  border-top: 1px solid rgba(255, 217, 74, 0.4);
+}
